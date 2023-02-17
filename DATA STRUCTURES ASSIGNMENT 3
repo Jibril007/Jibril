@@ -1,4 +1,4 @@
-#https://github.com/Jibril007/Jibril/new/main
+#https://github.com/Jibril007/Jibril/blob/main/DATA%20STRUCTURES%20ASSIGNMENT%203
 import numpy as np
 L=12 #length of beam in meters
 w=10 #intensity of load in KN/m
