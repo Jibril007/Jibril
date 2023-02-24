@@ -1,0 +1,45 @@
+# A dictionary of available cars and their prices
+availableCars ={
+    "Toyota RAV4": 20000,
+    "Honda civic":15000,
+    "Ford F-series":39000,
+    "Nissan":22000,
+    "Ferrari": 50000,
+    "Chevrolet":18000,
+    "Camry":21000,
+    "corolla":17000,
+    "SUV":35000,
+    "Lamborghini":70000,
+    "Audi":45000,
+    "Range rover":40000,
+    "Honda CR-V":38000,
+    "Ram 1500":42000,
+    "Tacoma":37000,
+    "Toyota highlander":29000,
+    "Benz":55000,
+    "BMW":52000,
+    "Toyota Hilux":27000,
+    "GMC Sierra":57000,
+    "Ford explorer":39000,
+    "Rolls Royce":95000,
+    "2022 Hyundai Accent":75000,
+    "Jaguar":65000,
+    "G-Wagon":60000,
+    "Skoda Octavia":62000,
+    "Audi A6":74000,
+    "Tesla model 3":78000, 
+    "Jeep":58000,
+    "Bugatti Chiron":150000,
+}
+#Let user input a car brand
+brand = input("Please enter the car brand: ")
+#Check if brand is available in the dictionary
+if brand in availableCars:
+    print("Yes, the car is available.")
+#If car is available,what's its price
+if brand in availableCars:
+    print("The price is $",availableCars[brand])
+else:
+    print("No, the car is not available.Please come back in a month time.")
+    
+ 
